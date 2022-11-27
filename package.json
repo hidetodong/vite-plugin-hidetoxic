@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git@github.com:hidetodong/vite-plugin-hidetoxic.git"
   },
-  "bugs": "https://github.com/antfu/pkg-name/issues",
+  "bugs": "https://github.com/hidetodong/vite-plugin-hidetoxic/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
