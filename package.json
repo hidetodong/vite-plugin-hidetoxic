@@ -1,6 +1,6 @@
 {
   "name": "@hidetoxic/vite-plugin-hidetoxic",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "packageManager": "pnpm@7.12.0",
   "description": "",
   "author": "HIDETOXIC <hidetoxic@hotmail.com>",
@@ -56,10 +56,10 @@
     "rimraf": "^3.0.2",
     "typescript": "^4.8.3",
     "unbuild": "^0.8.11",
-    "vite": "^3.1.2",
     "vitest": "^0.23.4"
   },
   "dependencies": {
+    "vite": "^3.1.2",
     "consola": "^2.15.3"
   }
 }
