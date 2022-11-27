@@ -1,12 +1,12 @@
-import consola from "consola";
 import type { Plugin } from "vite";
+import consola from "consola";
 
 export default function HidetoxicPlugin(): Plugin {
   return {
     apply: "serve",
     name: "vite:hidetoxic",
     enforce: "post",
-    configResolved() {
+    configResolved: () => {
       consola.success("HIDETOXIC - INJECTED");
     },
   };
