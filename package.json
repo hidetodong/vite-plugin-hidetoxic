@@ -1,7 +1,7 @@
 {
   "name": "@hidetoxic/vite-plugin-hidetoxic",
   "type": "module",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "packageManager": "pnpm@7.12.0",
   "description": "",
   "author": "HIDETOXIC <hidetoxic@hotmail.com>",
@@ -62,5 +62,9 @@
   "dependencies": {
     "vite": "^3.1.2",
     "consola": "^2.15.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }
