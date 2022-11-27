@@ -9,6 +9,7 @@ importers:
       '@antfu/utils': ^0.5.2
       '@types/node': ^18.7.18
       bumpp: ^8.2.1
+      consola: ^2.15.3
       eslint: ^8.23.1
       esno: ^0.16.3
       pnpm: ^7.12.0
@@ -17,6 +18,8 @@ importers:
       unbuild: ^0.8.11
       vite: ^3.1.2
       vitest: ^0.23.4
+    dependencies:
+      consola: 2.15.3
     devDependencies:
       '@antfu/eslint-config': 0.27.0_irgkl5vooow2ydyo6aokmferha
       '@antfu/ni': 0.18.0
@@ -997,7 +1000,6 @@ packages:
 
   /consola/2.15.3:
     resolution: {integrity: sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==}
-    dev: true
 
   /convert-source-map/1.8.0:
     resolution: {integrity: sha512-+OQdjP49zViI/6i7nIJpA8rAl4sV/JdPfU9nZs3VqOwGIgizICvuN2ru6fMd+4llL0tar18UYJXfZ/TWtmhUjA==}
